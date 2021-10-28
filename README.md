@@ -1,6 +1,6 @@
 # UnityEngineMock
 
-## Drop-in mock / fake / stub for UnityEngine.
+## Drop-in mock / fake / stub for UnityEngine
 
 UnityEngineMock can be useful if you have your own build process, and some
 lingering (but not critical) dependenies on Unity. It can also be useful for
@@ -19,7 +19,9 @@ using UnityEngine;
 #endif
 ```
 
-### Mostly complete (and functioning) fakes:
+### Fakes - Mostly complete and functioning
+
+These will mostly work as you are used to. Some parts are not implemented (yet).
 
 - Mathf
 - Vector2
@@ -28,7 +30,9 @@ using UnityEngine;
 - Debug
 
 
-### Very partially implemented (but functioning) fakes:
+### Fakes - Incomplete but functioning
+
+Only specific parts are implemented. Those parts will mostly work as you are used to.
 
 - Time
 - TextAsset
@@ -36,7 +40,9 @@ using UnityEngine;
 - Application
 
 
-### Mocks (incomplete, non-functioning, but helps compiling stuff):
+### Stubs - Incomplete, non-functioning
+
+These are meant to help compile. They don't have much functionality.
 
 - MonoBehavior
 - GameObject
