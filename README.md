@@ -1,5 +1,8 @@
 # UnityEngineMock
 
+Note: this project is not affiliated with Unity. The implementation was done
+without looking at the source code of Unity.
+
 ## Drop-in mock / fake / stub for UnityEngine
 
 UnityEngineMock can be useful if you have your own build process, and some
